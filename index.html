@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Таймер</title>
+    <link rel="stylesheet" href=".\styles.css" />
+     <link rel="shortcut icon" href="./images/goit.png" type="image/png" />
+  </head>
+  <body>
+    <div class="container">
+      <p class="heading">До конца дня осталось:</p>
+      <div class="timer" id="timer-1">
+        <div class="field">
+          <div class="time">
+            <span class="value" data-value="hours">--</span>
+          </div>
+          <span class="label">Hours</span>
+        </div>
+
+        <div class="field">
+          <div class="time">
+            <span class="value" data-value="mins">--</span>
+          </div>
+          <span class="label">Minutes</span>
+        </div>
+
+        <div class="field">
+          <div class="time">
+            <span class="value" data-value="secs">--</span>
+          </div>
+          <span class="label">Seconds</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <p class="heading">До конца года осталось:</p>
+      <div class="timer" id="timer-2">
+        <div class="field">
+          <div class="time">
+            <span class="value" data-value="days0">-</span>
+            <span class="value" data-value="days1">-</span>
+            <span class="value" data-value="days2">-</span>
+          </div>
+          <span class="label">Days</span>
+        </div>
+
+        <div class="field">
+          <div class="time">
+            <span class="value" data-value="hours1">-</span>
+            <span class="value" data-value="hours2">-</span>
+          </div>
+          <span class="label">Hours</span>
+        </div>
+
+        <div class="field">
+          <div class="time">
+            <span class="value" data-value="mins1">-</span>
+            <span class="value" data-value="mins2">-</span>
+          </div>
+          <span class="label">Minutes</span>
+        </div>
+
+        <div class="field">
+          <div class="time">
+            <span class="value" data-after="3" data-value="secs1">-</span>
+            <span class="value" data-value="secs2">-</span>
+          </div>
+          <span class="label">Seconds</span>
+        </div>
+      </div>
+      
+    <script src=".\main.js" type="module"></script>
+  </body>
+</html>
